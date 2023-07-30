@@ -1,9 +1,10 @@
 const BubbleSort = (nums) => {
   let noSwap;
-  for (let i = nums.length-1; i >= 0; i--) {
+  for (let i = nums.length - 1; i >= 0; i--) {    ///  BIR MARTA AYLANGAN ENG KATTASINI OXIRIGA OBORADI 
     noSwap = true;
     for (let j = 0; j < i; j++) {
-      console.log(nums, nums[j], nums[j + 1]);
+      console.log(nums);
+      console.log(nums[j], nums[j + 1]);
       if (nums[j] > nums[j + 1]) {
         let temp = nums[j];
         nums[j] = nums[j + 1];
