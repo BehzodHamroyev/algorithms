@@ -23,7 +23,7 @@ const digitMost = (nums) => {
 digitMost([-131, 32323, 4, 35, 653365]);
 
 const RadixSort = (nums) => {
-
+let lengthOfMaxNum=digitMost(nums)
     
 
 
